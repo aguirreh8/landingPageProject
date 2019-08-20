@@ -1,3 +1,9 @@
+.nav {
+    padding-right: 20px;
+    box-shadow: 0px 4px 26px -5px rgba(0,0,0,0.75);
+    overflow: auto;
+}
+
 .nav h1 {
     margin: 0;
 }
@@ -10,7 +16,26 @@
 
 .nav-item-wrapper {
     float: right;
-    width: 40%;
+    width: 300px;
     height: 100%;
+    /* text-align: center; */
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+}
+
+.nav-item-wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item-wrapper li {
+    float: left; 
+}
+
+.nav-item-wrapper li a {
+    display: block;
     text-align: center;
+    padding: 14px 16px;
 }
