@@ -58,3 +58,17 @@
 .about-icon-div img {
     width: 40%;
 }
+
+.menu-wrapper {
+    overflow: auto;
+    text-align: center;
+}
+
+.menu-item {
+    float: left;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
