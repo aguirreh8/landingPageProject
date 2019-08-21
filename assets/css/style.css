@@ -43,3 +43,18 @@
 .mid-section {
     text-align: center;
 }
+
+.about-grid {
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+.about-icon-div {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.about-icon-div img {
+    width: 40%;
+}
