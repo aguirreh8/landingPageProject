@@ -103,3 +103,21 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+.menu-order-btn {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+    transition: .3s ease;
+}
+
+.menu-order-btn:hover {
+    background: RGB(217, 213, 0);
+    cursor: pointer;
+}
