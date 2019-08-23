@@ -48,6 +48,9 @@ body {
     display: block;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
 }
 
 .main-wrapper {
